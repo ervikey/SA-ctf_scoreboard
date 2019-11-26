@@ -1,5 +1,5 @@
 <nav search_view="search" color="#000000">
-  <view name="botsv4_welcome" default="true"/>
+  <view name="welcome" default="true"/>
   <view name="questions" />
   <collection label="Scoring">
     <collection label="Event-Wide Scoring">
@@ -21,14 +21,14 @@
   </collection>
   <view name="rules" />
   <collection label="Help">
-    <view name="botsv4_scenario_1" />
-    <view name="botsv4_scenario_2" />
-    <view name="botsv4_scenario_3" />
-    <view name="botsv4_scenario_4" />
-    <view name="botsv4_sourcetypes"/>
+    <view name="scenario_1" />
+    <view name="scenario_2" />
+    <view name="scenario_3" />
+    <view name="scenario_4" />
+    <view name="sourcetypes"/>
     <a href="https://www.splunk.com/content/dam/splunk2/pdfs/solution-guides/splunk-quick-reference-guide.pdf" target="_blank">Splunk Quick Reference Guide</a>
   </collection>
-  <a href="/app/SA-ctf_scoreboard/botsv4_welcome?tour=welcome-tour">BOTS Tutorial</a>
+  <a href="/app/SA-ctf_scoreboard/welcome?tour=welcome-tour">BOTS Tutorial</a>
   <view name="Credits" />
   <view name="dashboards" />
   <view name="search" />
